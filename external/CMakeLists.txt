@@ -17,7 +17,6 @@ set(SIMPLE_KNN_SOURCES
 add_library(simple-knn ${SIMPLE_KNN_SOURCES})
 
 set_target_properties(simple-knn PROPERTIES
-    CUDA_ARCHITECTURES native
     CUDA_STANDARD 17 
     CUDA_STANDARD_REQUIRED ON
     CXX_STANDARD 17 
